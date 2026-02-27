@@ -54,7 +54,7 @@ ul{
     font-size: 14px;
 }
 .headbar{
-    background-image: url(../project5/assets/bg.png);
+    background-image: url(../banner5/assets/bg.png);
     background-position: center; 
     background-size: cover;
     background-attachment: fixed;
@@ -91,4 +91,5 @@ ul{
     padding: 13px 22px;
     margin-top: 64px;
     cursor: pointer;
+
 }
