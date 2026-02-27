@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+body{
+  width: 100%;
+  height: 100%;
+  background-image: url("../assets/bgc-image.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: brown; /*if the image could not load, this will work*/ 
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 60px;
+  margin-top: 20px;
+}
+.list{
+  display: flex;
+  gap: 65px;
+  color: #ffc233;
+  font-size: 18px;
+  margin-right: 20px;
+  font-family: "Red Rose", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  cursor: pointer;
+}
+.small-button{
+  background-color: #ff505f;
+  border: none;
+  padding: 12px 24px;
+  font-size: 18px;
+  color: #ffffff;
+  border-radius: 2px;
+  font-family: "Red Rose", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  cursor: pointer;
+}
+.hero-heading{
+  font-family: "Dela Gothic One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffc233;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 106px;
+  padding: 30px;
+  line-height: 104px;
+  font-size: 94px;
+}
+.buttons{
+  text-align: center;
+  margin-top: 12px;
+}
+.large-button{
+  background-color: #ff505f;
+  border: none;
+  padding: 16px 28px;
+  font-size: 22px;
+  color: #ffffff;
+  border-radius: 2px;
+  font-family: "Red Rose", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  cursor: pointer;
+}
+.bottom{
+  margin: 18px;
+  text-align: end;
+}
